@@ -5,12 +5,13 @@ background-color: #1c1e22;
 color: white;
 padding: 20px;
 } */
+ 
 .card {
     background-color: #2a2d33;
     border: none;
     border-radius: 10px;
     position: relative;
-    color: white;
+    color: white; 
 }
 .tag {
     position: absolute;
