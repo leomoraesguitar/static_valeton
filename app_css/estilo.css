@@ -58,3 +58,12 @@ h1 {
     --bs-btn-disabled-bg: #212529;
     --bs-btn-disabled-border-color: #212529;
 }
+.card-link .card, .clickable-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-link .card:hover, .clickable-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
